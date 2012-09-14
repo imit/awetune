@@ -1,0 +1,19 @@
+<ul>
+	<% @results.each do |video| %>
+		<li>
+	
+				<h1><%= video.title %></h1>
+
+			<% if video.media_type == 1 %>
+				<iframe src="http://player.vimeo.com/video/<%= video.media_id %>?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<% else %>
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/<%= video.media_id %>" frameborder="0" allowfullscreen></iframe>
+			<% end %>
+			<br>
+			tags: <%= video.tag_list %><br>
+			
+			<a href="/add_to_station?video_id=<%= video.id %> ">Add to my tv</a>
+		</li>
+
+	<% end %>
+</ul>

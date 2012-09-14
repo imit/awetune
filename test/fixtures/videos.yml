@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  media_id: 1
+  media_type: 1
+  thumbnail: MyString
+  title: MyString
+
+two:
+  media_id: 1
+  media_type: 1
+  thumbnail: MyString
+  title: MyString

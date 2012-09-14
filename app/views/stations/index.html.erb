@@ -1,0 +1,18 @@
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% for station in @stations %>
+    <tr>
+      <td><%= station.name %></td>
+      <td><%= station.description %></td>
+      <td><%= link_to "Show", station %></td>
+      <td><%= link_to "Edit", edit_station_path(station) %></td>
+      <td><%= link_to "Destroy", station, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Station", new_station_path %></p>

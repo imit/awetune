@@ -1,0 +1,23 @@
+
+<div id="video" style="width:500px; height:300px; background:red; display:block; "></div>
+
+<a href="#" id="next">aa</a>
+<p>
+  <strong>Name:</strong>
+  <%= @station.name %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @station.description %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_station_path(@station) %> |
+  <%= link_to "Destroy", @station, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", stations_path %>
+</p>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+	app.init();
+});
+</script>

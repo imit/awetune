@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  query: MyString
+  last_crawled_at: 2012-09-14 09:08:01
+
+two:
+  query: MyString
+  last_crawled_at: 2012-09-14 09:08:01
