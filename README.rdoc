@@ -1,1 +1,18 @@
 == Awetunes is awesome
+
+
+
+
+== Todo
+
+- followers
+
+
+== Inspiration
+
+	http://hey.im/
+	http://dropula.com/auth/login
+	http://readymag.com/mag/1/
+	
+== Resource	
+	https://github.com/joaomdmoura/gioco

@@ -25,5 +25,5 @@ gem 'vimeo'
 gem 'acts-as-taggable-on', '~> 2.3.1'
 gem 'rabl-rails'
 gem "nifty-generators", :group => :development
-
+gem "carrierwave"
 gem "mocha", :group => :test

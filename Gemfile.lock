@@ -50,6 +50,8 @@ GEM
       ZenTest (~> 4.5)
     bcrypt-ruby (3.0.1)
     builder (3.0.3)
+    carrierwave (0.5.8)
+      activesupport (~> 3.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -192,6 +194,7 @@ DEPENDENCIES
   acts-as-taggable-on (~> 2.3.1)
   autotest
   autotest-rails
+  carrierwave
   coffee-rails (~> 3.2.1)
   debugger
   devise
